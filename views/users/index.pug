@@ -1,0 +1,19 @@
+h1 List Users
+
+a(href="/create") Add New user
+
+form(action="/users/create",method = "POST")
+    label Name:
+    br
+    input(name = "name", type= "text")
+    br
+    button Create
+
+ul
+  each user in users
+    li
+      span=user.name
+      span &nbsp
+      a(href="/users/" + user.id + "/update") Update
+      span &nbsp
+      a(href="/users/" + user.id + "/delete") Delete
