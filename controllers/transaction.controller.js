@@ -45,7 +45,10 @@ module.exports.postCreate = function(req, res) {
 
 module.exports.getComplete = function(req, res){
   var id = req.params.id;
-
+  
+  if(!db.get("transactions").includes(id)){
+    res.send('ERROR NOT ID')
+  }
     db.get("transactions")
       .find({ id: id })
       .set("isComplete", true )
