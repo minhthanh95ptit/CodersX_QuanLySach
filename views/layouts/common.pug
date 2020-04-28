@@ -1,0 +1,20 @@
+html
+  head
+    link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css')
+    link(rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/0c421610-a925-4bc9-88c5-42d025f3922b%2Flogo.png?1587831218664")
+    title CodersX
+    link(rel='stylesheet',type= "text/css", href="/custom.css")
+  body       
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light
+    a.navbar-brand(href='/') CodersX
+    button.navbar-toggler
+      span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul.navbar-nav.mr-auto
+        li.nav-item.active
+          a.nav-link(href='/')
+            | Home 
+        li.nav-item
+          a.nav-link(href='/users') User
+
+  block content

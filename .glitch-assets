@@ -1,6 +1,23 @@
-{"name":"drag-in-files.svg","date":"2016-10-22T16:17:49.954Z","url":"https://cdn.hyperdev.com/drag-in-files.svg","type":"image/svg","size":7646,"imageWidth":276,"imageHeight":276,"thumbnail":"https://cdn.hyperdev.com/drag-in-files.svg","thumbnailWidth":276,"thumbnailHeight":276,"dominantColor":"rgb(102, 153, 205)","uuid":"adSBq97hhhpFNUna"}
-{"name":"click-me.svg","date":"2016-10-23T16:17:49.954Z","url":"https://cdn.hyperdev.com/click-me.svg","type":"image/svg","size":7116,"imageWidth":276,"imageHeight":276,"thumbnail":"https://cdn.hyperdev.com/click-me.svg","thumbnailWidth":276,"thumbnailHeight":276,"dominantColor":"rgb(243, 185, 186)","uuid":"adSBq97hhhpFNUnb"}
-{"name":"paste-me.svg","date":"2016-10-24T16:17:49.954Z","url":"https://cdn.hyperdev.com/paste-me.svg","type":"image/svg","size":7242,"imageWidth":276,"imageHeight":276,"thumbnail":"https://cdn.hyperdev.com/paste-me.svg","thumbnailWidth":276,"thumbnailHeight":276,"dominantColor":"rgb(42, 179, 185)","uuid":"adSBq97hhhpFNUnc"}
-{"uuid":"adSBq97hhhpFNUna","deleted":true}
-{"uuid":"adSBq97hhhpFNUnb","deleted":true}
-{"uuid":"adSBq97hhhpFNUnc","deleted":true}
+html
+head
+  link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css')
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+
+body       
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='/') CodersX
+  button.navbar-toggler
+    span.navbar-toggler-icon
+  #navbarSupportedContent.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto
+      li.nav-item.active
+        a.nav-link(href='/')
+          | Home 
+      li.nav-item
+        a.nav-link(href='/users') User
+     
+
+
+{"name":"logo.png","date":"2020-04-25T16:13:38.664Z","url":"https://cdn.glitch.com/0c421610-a925-4bc9-88c5-42d025f3922b%2Flogo.png","type":"image/png","size":1233,"imageWidth":50,"imageHeight":50,"thumbnail":"https://cdn.glitch.com/0c421610-a925-4bc9-88c5-42d025f3922b%2Flogo.png","thumbnailWidth":50,"thumbnailHeight":50,"uuid":"sTAqtgN9THMjuyHR"}
+{"name":"favicon.png","date":"2020-04-25T16:28:22.646Z","url":"https://cdn.glitch.com/0c421610-a925-4bc9-88c5-42d025f3922b%2Ffavicon.png","type":"image/png","size":4447,"imageWidth":64,"imageHeight":64,"thumbnail":"https://cdn.glitch.com/0c421610-a925-4bc9-88c5-42d025f3922b%2Ffavicon.png","thumbnailWidth":64,"thumbnailHeight":64,"uuid":"Rqrb0ljFHGjMquob"}
+block content
