@@ -29,20 +29,12 @@ module.exports.update = function(req, res) {
 
 module.exports.postCreate = function(req, res) {
   req.body.id = shortid.generate();
-  var errors = [];
-  if(req.body.name.length > 30){
-    errors.push('Length > 30');
-  }
-  else{
+  
     db.get("users")
     .push(req.body)
     .write();
-  }
-  console.log(errors);
-  res.render("users/index", {
-    users: db.get("users").value(),
-    errors: errors
-  });
+  
+  res.redirect("/users");
   
 };
 

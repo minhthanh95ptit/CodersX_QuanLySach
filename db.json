@@ -24,43 +24,50 @@
   "users": [
     {
       "name": "minhthanhp95ptit",
-      "id": "lKecbfimU"
+      "id": "lKecbfimU",
+      "email": "minhthanh95ptit@gmail.com",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": true
     },
     {
       "name": "Tính Can Chi (Flask python)",
-      "id": "k9DoZRgws"
+      "id": "k9DoZRgws",
+      "email": "minhthanh95ptit@gmail1.com",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": false
     },
     {
       "name": "minhthanhp95ptit11",
-      "id": "y45ApWEX2"
+      "id": "y45ApWEX2",
+      "email": "minhthanh95ptit@gmail2.com",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": false
     },
     {
       "name": "Phạm Minh Thành",
-      "id": "pj1n2Hx6g"
+      "id": "pj1n2Hx6g",
+      "email": "minhthanh95ptit@gmail3.com",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": false
     },
     {
       "name": "",
-      "id": "WkC3bwS_W"
+      "id": "WkC3bwS_W",
+      "email": "minhthanh95ptit@gmail4.com",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": false
     },
     {
       "name": "",
-      "id": "j95LDX3ml"
+      "id": "j95LDX3ml",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": false
     },
     {
       "name": "Lư Minh Thông",
-      "id": "CGub90elB"
-    },
-    {
-      "name": "",
-      "id": "aHcXUN1c3"
-    },
-    {
-      "name": "",
-      "id": "islxXj2mz"
-    },
-    {
-      "name": "",
-      "id": "y_YghVJq2"
+      "id": "CGub90elB",
+      "password": "4297f44b13955235245b2497399d7a93",
+      "isAdmin": false
     }
   ],
   "transactions": [
@@ -111,5 +118,7 @@
       "id": "kKns8EgkX",
       "isComplete": true
     }
-  ]
+  ],
+  "cookies": "[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]11",
+  "count": 6
 }
